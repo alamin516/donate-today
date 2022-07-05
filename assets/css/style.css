@@ -27,4 +27,24 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
+.donate-banner{
+    background-image: url(../images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 190px 0;
+}
 
+.banner-content{
+    text-align: center;
+}
+
+
+.banner-title{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.banner-content p{
+    font-size: 18px;
+    color: #ffffff;
+}
