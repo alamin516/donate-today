@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 
-a {
+a{
   text-decoration: none;
   display: inline-block;
 }
@@ -23,13 +23,14 @@ h3,
 h4,
 h5,
 h6,
-p {
+p, a {
   font-family: "Poppins", sans-serif;
 }
 
 .donate-banner{
-    background-image: url(../images/donation1.jpg);
+    background-image: url(../images/donation13.jpg);
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     padding: 190px 0;
 }
@@ -40,11 +41,28 @@ p {
 
 
 .banner-title{
-    font-size: 60px;
+    font-size: 70px;
     color: #ffffff;
+    font-weight: 600;
+    line-height: 90px;
+    margin-bottom: 10px;
 }
 
 .banner-content p{
     font-size: 18px;
     color: #ffffff;
+    font-weight: 400;
 }
+
+.donate-btn{
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #FF5959;
+  padding: 15px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+
+
