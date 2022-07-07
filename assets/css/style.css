@@ -14,8 +14,12 @@
 
 a{
   text-decoration: none;
-  display: inline-block;
 }
+
+.mb-5{
+  margin-bottom: 50px;
+}
+
 .text-center{
   text-align: center;
 }
@@ -41,6 +45,7 @@ p, a {
 }
 
 .donate-banner{
+    width: 100%;
     background-image: url(../images/donation13.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -81,6 +86,7 @@ p, a {
 
 
 .donate-today{
+  width: 100%;
   padding-top: 140px;
   padding-bottom: 50px;
   text-align: center;
@@ -102,10 +108,9 @@ p, a {
 
 
 .donate-amount{
-  width: 850px;
+  width: 70%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
   margin-top: 50px;
 }
 
@@ -116,6 +121,7 @@ p, a {
   color: #707070;
   padding: 40px 10px;
   background-color: #fafafa;
+  margin: 0px 10px;
   border-radius: 5px;
   margin-bottom: 60px;
 }
@@ -128,7 +134,7 @@ p, a {
 
 #other-amount{
   display: block;
-  width: 850px;
+  width: 65%;
   font-size: 18px;
   color: #b3b3b3;
   text-align: center;
@@ -138,10 +144,6 @@ p, a {
   padding: 14px;
 }
 
-#other-amount,#subscribe-email:focus{
-  outline: none;
-}
-
 
 .btn{
   border: none;
@@ -149,18 +151,19 @@ p, a {
 
 
 .donate-plan{
+  width: 100%;
   padding: 100px 0px 30px;
 }
 
 .donate-plan-items{
   width: 100%;
   display: flex;
-  justify-content: space-between;
   margin-top: 50px;
 }
 .donate-plan-item{
   width: 25%;
   padding: 60px 60px 60px 25px;
+  margin: 0px 10px;
   border-radius: 5px;
 }
 
@@ -193,6 +196,7 @@ p, a {
 
 
 .contribution{
+  width: 100%;
   padding-top: 100px;
 }
 
@@ -205,6 +209,7 @@ p, a {
   padding-top: 50px;
 }
 
+
 .contribution-img img{
   width: 510px;
   height: 550px;
@@ -213,13 +218,14 @@ p, a {
 }
 
 .testimonial{
+  width: 100%;
   padding: 100px 0;
 }
 
 .testimonial-items{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-top: 50px;
 }
 
@@ -228,6 +234,7 @@ p, a {
   padding: 60px 25px;
   border-radius: 5px;
   text-align: center;
+  margin: 0px 10px;
   box-shadow: 0px 0px 10px #707070;
 }
 
@@ -240,10 +247,11 @@ p, a {
 
 
 .subscription{
+  width: 100%;
   padding: 40px 0 80px 0;
 }
 .subscription-form{
-  width: 870px;
+  width: 75%;
   margin: 60px auto;
   padding: 80px 0;
   background-color: #FFF4D6;
@@ -251,7 +259,7 @@ p, a {
 }
 
 #subscribe-email{
-  width: 270px;
+  width: 30%;
   font-size: 16px;
   line-height: 20px;
   padding: 16px;
@@ -274,8 +282,8 @@ p, a {
 }
 
 
-
 footer{
+  width: 100%;
   padding: 50px 0;
   text-align: center;
   background-color: #121212;
